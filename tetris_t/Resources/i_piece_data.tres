@@ -1,0 +1,10 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://dlnaq5id3ordh"]
+
+[ext_resource type="Texture2D" uid="uid://dstt7lpnix1kv" path="res://Assets/Cyan.png" id="1_68rr4"]
+[ext_resource type="Script" uid="uid://bcrytmnlbp11u" path="res://Scripts/piece_data.gd" id="2_swbjr"]
+
+[resource]
+script = ExtResource("2_swbjr")
+piece_texture = ExtResource("1_68rr4")
+t_type = 4
+spwan_pos = Vector2(-24, -456)
